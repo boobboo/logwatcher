@@ -1,0 +1,31 @@
+{
+  "name": "logwatcher",
+  "version": "0.0.1",
+  "description": "Simple logwatching daemon",
+  "main": "index.js",
+  "dependencies": {
+    "cron": "~1.0.1",
+    "daemon": "~1.1.0",
+    "ejs": "~0.8.4",
+    "nodemailer": "~0.5.2",
+    "time": "~0.9.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/btd/logwatcher.git"
+  },
+  "keywords": [
+    "daemon",
+    "log",
+    "watch"
+  ],
+  "author": "Denis Bardadym",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/btd/logwatcher/issues"
+  }
+}
