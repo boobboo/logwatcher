@@ -4,7 +4,7 @@ var cronJob = require('cron').CronJob,
 	hostname = require("os").hostname(),
 	nodemailer = require("nodemailer");
 
-//require('daemon')();
+require('daemon')();
 
 var jobs = require('./config.json');
 
