@@ -1,0 +1,12 @@
+{
+	"error":
+		{
+			"path": "/home/lilya/Projects/WebApp/logs/ingo.log",
+			"pattern":"ERROR",
+			"notification":
+				{
+					"emails":["bardadymchik@gmail.com"],
+					"minRows":1
+				}
+		}
+}

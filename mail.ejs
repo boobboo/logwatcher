@@ -1,0 +1,9 @@
+<div>
+	<h1>Hello! Were found rows for '<%= name %>'.</h1>
+	<p>There were such rows in <b><%= filePath %></b> at <b><%= host %></b>:</p>
+	<ul style="list-style-type: none; padding: 0px;">
+	<% for(var i=0; i < rows.length; i++) {%>
+	   <li style="padding: 10px 0;"><%= rows[i] %></li>
+	<% } %>
+	</ul>
+</div>
